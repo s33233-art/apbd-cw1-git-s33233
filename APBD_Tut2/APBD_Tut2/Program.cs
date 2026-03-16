@@ -16,6 +16,10 @@ for (int i = 0;i < userNum; i++)
     Console.WriteLine(i+1);
 }
 */
+Console.WriteLine("Now, I'll do it in reverse!");
+for (int i = userNum; i > 0; i--) { 
+    Console.WriteLine(i);
+}
 static int CalculateAverage(int[] values) {
     int avg = 0;
     foreach(int value in values) { 
