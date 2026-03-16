@@ -18,5 +18,9 @@ for (int i = 0;i < userNum; i++)
 */
 static int CalculateAverage(int[] values) {
     int avg = 0;
+    foreach(int value in values) { 
+        avg += value;
+    }
+    avg = avg / values.Length;
     return avg;
 }
