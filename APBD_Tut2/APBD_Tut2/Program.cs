@@ -9,3 +9,9 @@ for (int i = 0; i < userNum; i++)
 {
     Console.WriteLine(i+1);
 }
+Console.WriteLine("Have some more, "+userName);
+userNum = userNum * userNum;
+for (int i = 0;i < userNum; i++)
+{
+    Console.WriteLine(i+1);
+}
