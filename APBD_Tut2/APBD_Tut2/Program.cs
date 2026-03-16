@@ -21,7 +21,7 @@ for (int i = userNum; i > 0; i--) {
     Console.WriteLine(i);
 }
 Console.WriteLine("I won't lie, " + userName + "...");
-Console.WriteLine("Getting tired of counting!");
+Console.WriteLine("Getting tired of so many numbers");
 static int CalculateAverage(int[] values) {
     int avg = 0;
     foreach(int value in values) { 
